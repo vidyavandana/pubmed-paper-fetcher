@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "pubmed-paper-fetcher"
+version = "0.1.0"
+description = ""
+authors = ["Vidya Vandana"]
+readme = "README.md"
+packages = [
+  { include = "src", from = "." }
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+biopython = "^1.85"
+pandas = "^2.3.1"
+typer = "^0.16.0"
+
+[tool.poetry.scripts]
+get-papers-list = "src.cli:app"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.1"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
