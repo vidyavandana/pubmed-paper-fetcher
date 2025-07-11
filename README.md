@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PubMed Paper Fetcher CLI
 
 This is a command-line Python tool that helps you find biomedical research papers from PubMed. It looks for papers that have at least one author working at a pharmaceutical or biotech company, and lets you save those results as a CSV file or print them to the terminal.
@@ -152,3 +153,6 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
+=======
+# pubmed-paper-fetcher
+>>>>>>> b621fd16edc5169653a2b8da539229fdd901f060
