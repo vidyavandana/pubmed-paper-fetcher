@@ -1,14 +1,8 @@
-# src/utils.py
-
 import re
 from typing import Union, Optional, List
-
-# Keywords that suggest non-academic affiliation
 NON_ACADEMIC_KEYWORDS = [
     "inc", "ltd", "llc", "biotech", "pharma", "technologies", "solutions", "corporation", "company", "gmbh", "s.a.", "co.", "pvt"
 ]
-
-# Keywords that suggest academic or research affiliation
 ACADEMIC_KEYWORDS = [
     "university", "institute", "hospital", "college", "school", "center", "centre", "department", "faculty"
 ]

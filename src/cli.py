@@ -1,9 +1,5 @@
-# src/cli.py
-
 from typer import Typer, Option, Argument
 from src.fetcher import fetch_papers
-
-# Create the Typer app
 app = Typer(help="Fetch PubMed papers based on a query and export to CSV or console.")
 
 @app.command()
