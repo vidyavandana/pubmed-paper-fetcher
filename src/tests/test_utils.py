@@ -1,5 +1,3 @@
-# tests/test_utils.py
-
 from src.utils import is_non_academic_author, extract_email
 
 def test_is_non_academic_author_positive():

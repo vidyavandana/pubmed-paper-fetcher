@@ -1,7 +1,10 @@
 import re
 from typing import Union, Optional, List
 NON_ACADEMIC_KEYWORDS = [
-    "inc", "ltd", "llc", "biotech", "pharma", "technologies", "solutions", "corporation", "company", "gmbh", "s.a.", "co.", "pvt"
+    "inc", "ltd", "llc", "biotech", "pharma", "technologies", "solutions",
+    "corporation", "company", "gmbh", "s.a.", "co.", "pvt", 
+    "holdings", "ventures", "industries", "labs", "laboratories",
+    "group", "consulting", "innovation", "enterprise", "services"
 ]
 ACADEMIC_KEYWORDS = [
     "university", "institute", "hospital", "college", "school", "center", "centre", "department", "faculty"
